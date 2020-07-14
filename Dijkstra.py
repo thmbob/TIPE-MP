@@ -42,7 +42,6 @@ def dijkstra(graphe, depart, arrive) :
     mat = graphe[2]
     n = gr.ordre(graphe)
     while i != arrive :
-        print(i)
         for j in range(n) :
             if mat[i][j] != 0 :
                 nc = c.copy()
